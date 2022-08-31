@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "norse";
+    src: url(Norse-Bold.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,11 +11,26 @@
     width: 100%;
 }
 
-body {
+
+.container {
     background-image: url("bamboo.jpg");
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
 }
+
+
+.left-side {
+    border: 5px solid green;
+    flex: 0.5;
+}
+
+.right-side {
+    border: 5px solid blue;
+    flex: 1;
+}
+
+.left-side, .right-side {color: white; font-size: 20px;}
 
 h1 {
     color: red;

@@ -77,12 +77,24 @@ label {
 
 .bottom-right {
     background-color: antiquewhite;
-    flex: 1;
+    padding: 10px 80px 20px 40px;
+}
+
+button {
+    color: white;
+    background-color: green;
+    padding: 10px 30px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+}
+
+.bottom-right > p {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
 }
 
 .left-side {color: white; font-size: 20px;}
-
-h1 {
-    color: red;
-    font-size: 80px;
-}

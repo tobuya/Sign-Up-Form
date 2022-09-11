@@ -32,7 +32,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 70px 80px 40px 40px;
+    padding: 50px 80px 40px 40px;
 }
 
 .top-right > p {
@@ -49,13 +49,31 @@
 
 .middle-right {
     background-color: aliceblue;
-    display: inline-flex;
-    flex: 2;
+    padding: 0px 80px 10px 40px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-row > div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px 10px 0px;
+}
+
+.middle-right  p {
+    font-weight: bolder;
+    font-size: larger;
 }
 
 label {
     color: black;
+    font-weight: bold;
+    font-size: smaller;
 }
+
 
 .bottom-right {
     background-color: antiquewhite;

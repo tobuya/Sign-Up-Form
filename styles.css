@@ -4,18 +4,12 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    height: 100%;
-    width: 100%;
 }
-
 
 .container {
     background-image: url("bamboo.jpg");
     background-size: cover;
-    background-attachment: fixed;
     display: flex;
 }
 
@@ -28,9 +22,47 @@
 .right-side {
     border: 5px solid blue;
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
-.left-side, .right-side {color: white; font-size: 20px;}
+.top-right {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 70px 80px 40px 40px;
+}
+
+.top-right > p {
+    font-weight: bold;
+}
+
+.para {
+    margin-top: 0px;
+}
+
+.first-para {
+    margin-bottom: 0px;
+}
+
+.middle-right {
+    background-color: aliceblue;
+    display: inline-flex;
+    flex: 2;
+}
+
+label {
+    color: black;
+}
+
+.bottom-right {
+    background-color: antiquewhite;
+    flex: 1;
+}
+
+.left-side {color: white; font-size: 20px;}
 
 h1 {
     color: red;

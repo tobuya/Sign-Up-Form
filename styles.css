@@ -7,20 +7,34 @@
     box-sizing: border-box;
 }
 
+html, body {
+    background-color: rgb(60, 60, 60);
+}
+
 .container {
     background-image: url("bamboo.jpg");
     background-size: cover;
     display: flex;
+    margin: 0 160px;
 }
 
 
 .left-side {
-    border: 5px solid green;
     flex: 0.5;
 }
 
+.side-img {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 150px;
+    padding: 10px;
+}
+
+.side-img > img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
 .right-side {
-    border: 5px solid blue;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -97,4 +111,3 @@ a {
     text-decoration: none;
 }
 
-.left-side {color: white; font-size: 20px;}

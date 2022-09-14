@@ -111,3 +111,21 @@ a {
     text-decoration: none;
 }
 
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    border: 1px solid #E5E7EB;
+    border-radius: 2px;
+    padding: 3px;
+    box-shadow: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+    outline: none;
+    border: 1px solid blue;
+    border-radius: 4px;
+    box-shadow: none;
+}

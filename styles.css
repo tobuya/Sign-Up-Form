@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "norse";
+    font-family: myFont;
     src: url(Norse-Bold.otf);
 }
 
@@ -9,6 +9,7 @@
 
 html, body {
     background-color: rgb(60, 60, 60);
+    font-family: myFont;
 }
 
 .container {
@@ -46,7 +47,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 50px 80px 40px 40px;
+    padding: 40px 80px 40px 40px;
 }
 
 .top-right > p {
@@ -64,6 +65,7 @@ html, body {
 .middle-right {
     background-color: aliceblue;
     padding: 0px 80px 10px 40px;
+    display: block;
 }
 
 .form-row {
@@ -77,7 +79,7 @@ html, body {
     padding: 10px 40px 10px 0px;
 }
 
-.middle-right  p {
+#paragraph {
     font-weight: bolder;
     font-size: larger;
 }
@@ -128,4 +130,11 @@ input[type="tel"]:focus {
     border: 1px solid blue;
     border-radius: 4px;
     box-shadow: none;
+}
+
+.error_message {
+    color: #c13838;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 0;
 }

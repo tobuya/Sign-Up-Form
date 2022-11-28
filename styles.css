@@ -16,7 +16,7 @@ html, body {
     background-image: url("bamboo.jpg");
     background-size: cover;
     display: flex;
-    margin: 0 160px;
+    margin: 0;
 }
 
 
